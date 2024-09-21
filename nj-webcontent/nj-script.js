@@ -52,3 +52,13 @@ ScrollReveal().reveal('.home-content, heading',{origin: 'top'});
 ScrollReveal().reveal('.home-img, .edu-exp, .hobbies-box',{origin: 'buttom'});
 ScrollReveal().reveal('.home-contact h1, .about-img',{origin: 'left'});
 ScrollReveal().reveal('.home-contact p, .about-content',{origin: 'right'});
+
+// typed JS
+
+const typed = new Typed('.multiple-text', {
+    strings: ['student at Tarlac State University', 'devoted anime enthusiast', 'fan of manga, webtoons, and novels'],
+    typeSpeed: 70,
+    backSpeed: 70,
+    backDelay: 1000,
+    loop: true,
+});
